@@ -1,0 +1,18 @@
+#logotipe {
+    display: flex;
+    padding: 1%;
+    justify-content: center;
+    
+}
+
+.nav {
+    background-color: #63A2FF;
+    width: 100%;
+    justify-content: center;
+    
+    }
+
+.nav-link {
+    color: white;
+}
+
