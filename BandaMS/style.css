@@ -1,7 +1,11 @@
+*{
+    font-family: sans-serif;
+}
 #logotipe {
     display: flex;
     padding: 1%;
     justify-content: center;
+    width: 400px;
     
 }
 
@@ -15,4 +19,63 @@
 .nav-link {
     color: white;
 }
+
+.carousel-inner img{
+        width: 500px;
+        height: 500px;
+}
+
+h1{
+    margin-top: 50px;
+}
+
+h2{
+    font-family: sans-serif;
+    font-weight: lighter;
+}
+
+#about2{
+    margin-top: 20px;
+}
+
+#separator{
+    background-color:#E8B041;
+    height: 100px;
+    justify-content: center;
+    display: flex;
+    padding: 10px;
+}
+
+#separator img{
+    
+    height: 100px;
+    
+    
+}
+
+#name_Artist {
+    font-weight: bolder;
+    text-align: center;
+    background-color: #E8B041;
+}
+
+thead{
+    font-weight: bolder;
+    color: black;
+    background-color: #E8B041;
+}
+
+.description{
+    width: 40%;
+    text-align: justify;
+}
+
+.album_img{
+    width: 200px;
+    height: 197px;
+    display:block;
+    margin:auto;
+}
+
+
 
