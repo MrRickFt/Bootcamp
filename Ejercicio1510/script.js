@@ -64,7 +64,7 @@ function contar_letras(){
         var bt = document.getElementById("btn_count");
         bt.addEventListener("click", function(){
             var cont = contar_letras();
-            var mostrar = document.getElementById("lbl_count");
+            var mostrar = document.getElementById("result_count");
             mostrar.value = ("Total caracteres: ")+cont;
         })
 
@@ -101,7 +101,7 @@ function mimMay(){
         var minmayus = document.getElementById("btn_min");
         minmayus.addEventListener("click", function(){
             var conv = mimMay();
-            var rx = document.getElementById("lbl_min");
+            var rx = document.getElementById("result_min");
             rx.value = (conv);
         })
 
@@ -125,7 +125,7 @@ function sumarNum(){
 var sumnum = document.getElementById("btn_sum");
         sumnum.addEventListener("click", function(){
             var res = sumarNum();
-            var  cont= document.getElementById("lbl_sum");
+            var  cont= document.getElementById("result-sum");
             cont.value = ("Total sumatoria: "+res);
         })
     
