@@ -1,4 +1,4 @@
-function mostrar(){
+/*function mostrar(){
     var x = document.getElementsByClassName("prueba");
     for(var i=0; i<x.length; i++){
         document.getElementsByClassName("prueba")[i].style.display = "none";
@@ -101,10 +101,9 @@ function mimMay(){
         var minmayus = document.getElementById("btn_min");
         minmayus.addEventListener("click", function(){
             var conv = mimMay();
-            var rx = document.getElementById("result_min");
+            var rx = document.getElementById("resoult");
             rx.value = (conv);
         })
-
 
 //SUMAR NUMEROS
 function sumarNum(){
@@ -127,13 +126,9 @@ var sumnum = document.getElementById("btn_sum");
             var res = sumarNum();
             var  cont= document.getElementById("result-sum");
             cont.value = ("Total sumatoria: "+res);
-        })
-    
-
-    
+        }) */
 
 
+a=0;
 
-
-
-
+if (a==0){ alert(a);}

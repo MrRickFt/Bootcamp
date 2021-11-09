@@ -1,0 +1,25 @@
+#title{
+    display: flex;
+    text-align: center;
+}
+
+.products{
+    width: 200px;
+    height: 200px;
+    display:block;
+    margin:auto;
+    
+}
+
+.num_prod{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.col-lg-3{
+    border: 1px darkred dashed;
+    align-items: center;
+    margin-left: 30px;
+}
+
