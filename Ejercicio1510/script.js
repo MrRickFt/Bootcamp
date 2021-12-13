@@ -1,4 +1,4 @@
-/*function mostrar(){
+function mostrar(){
     var x = document.getElementsByClassName("prueba");
     for(var i=0; i<x.length; i++){
         document.getElementsByClassName("prueba")[i].style.display = "none";
@@ -126,9 +126,6 @@ var sumnum = document.getElementById("btn_sum");
             var res = sumarNum();
             var  cont= document.getElementById("result-sum");
             cont.value = ("Total sumatoria: "+res);
-        }) */
+        }) 
 
 
-a=0;
-
-if (a==0){ alert(a);}
